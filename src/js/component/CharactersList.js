@@ -6,9 +6,9 @@ const CharactersList = () => {
   const { store, actions } = useContext(Context);
   return (
     <div>
-      &nbsp;
-      <h1 style={{ color: "red", marginLeft: "10px" }}>Characters</h1>
-      &nbsp;
+      
+      <h1 style={{ color: "red", marginLeft: "10px" }}>Characters List</h1>
+      
       <div className="d-flex flex-row flex-nowrap overflow-auto" >
         {store.people.map((item, index) => {
 

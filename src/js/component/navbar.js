@@ -8,11 +8,11 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar mb-3 mt-3 justify-content-evenly navbar-secondary" style={{ backgroundColor: "#F7F7F7" }}>
       <Link to="/">
-        <img className="w-25" src="https://www.freepnglogos.com/uploads/star-wars-logo-31.png" alt="star wars logo" />
+        <img className="w-25" src="https://www.freepnglogos.com/uploads/star-wars-logo-31.png" alt="star wars logo for" />
         <button className="btn btn-outline-success border-3">Go Home</button>
       </Link>
       <div className="dropdown">
-        <button className="btn btn-outline-success border-3 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button className="btn btn-outline-success border-3 dropdown-toggle danger" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           Favorites
           <span className="border border-success rounded-pill ms-2 p-1">
             <strong>{store.favorites.length}</strong>

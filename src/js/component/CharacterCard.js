@@ -10,10 +10,10 @@ const CharacterCard = ({ item }) => {
     <div className='container w-50'>
       &nbsp;
       <div className="card me-3" style={{ minWidth: "300px" }}>
-        <img src="https://placehold.co/600x400" className="card-img-top" alt="..." />
+        <img src="https://placehold.co/600x400" className="card-img-top" alt="Character Card name" />
         <div className="card-body">
           <h5 className="card-title">{item.name}</h5>
-          <p className="card-text" style={{ padding: "1" }}></p>
+          <p className="card-text" style={{ padding: "0" }}></p>
           <a href="#" className="btn btn-primary">Learn more!</a>
         </div>
       </div>
