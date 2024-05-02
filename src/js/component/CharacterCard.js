@@ -13,7 +13,7 @@ const CharacterCard = ({ item }) => {
         <img src="https://placehold.co/600x400" className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{item.name}</h5>
-          <p className="card-text" style={{ padding: "0" }}></p>
+          <p className="card-text" style={{ padding: "1" }}></p>
           <a href="#" className="btn btn-primary">Learn more!</a>
         </div>
       </div>
